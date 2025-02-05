@@ -1,0 +1,87 @@
+/* Universal Style Rules */
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica;
+  -webkit-font-smoothing: antialiased;
+}
+
+h2 {
+  padding: 30px 0 0;
+  text-align: center;
+  font-size: 8px;
+}
+#productComparison {
+  font-size: 9px;
+}
+/* Table Styles */
+.table-wrapper {
+  margin: 10px 70px 70px;
+}
+
+table {
+  border-radius: 10px;
+  font-size: 9px;
+  border: none;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+  white-space: nowrap;
+  background-color: white;
+}
+
+caption {
+  caption-side: bottom;
+  padding: 5px 0px;
+  font-size: 7px;
+  font-style: italic;
+}
+
+table td,
+table th {
+  text-align: center;
+  padding: 8px;
+}
+
+/* Color Table Headers */
+table thead th {
+  color: black;
+  background: #bccde9;
+  font-weight: 600;
+}
+
+table th, table td {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #87a5ce;
+}
+table th {
+  font-weight: 600;
+
+}
+table tbody th {
+  color: black;
+}
+
+/* table thead th:nth-child(odd) {
+  color: #ffffff;
+  background: #324960;
+} */
+
+.hidden {
+  visibility: hidden;
+  border: 0;
+}
+
+table tr:nth-child(odd) {
+  background-color: #d9e8fb; /* Cinza claro */
+}
+table tr:nth-child(even) {
+  background-color: #c7dbf6; /* Azul claro */
+}

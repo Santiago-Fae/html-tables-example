@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./table2.css" />
+    <title>HTML Table Example</title>
+</head>
+
+<body>
+    <h2 id="productComparison">Product Comparison Chart</h2>
+    <div class="table-wrapper">
+        <table aria-labelledby="productComparison">
+            <caption>Fig: Comparison of the features between the products</caption>
+            <thead>
+                <tr>
+                    <th id="hidden" class="hidden" scope="colgroup"></th>
+                    <th id="productA" scope="colgroup">Product A</th>
+                    <th id="productB" scope="colgroup">Product B</th>
+                    <th id="productC" scope="colgroup">Product C</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th id="durability" scope="row">Durability</th>
+                    <td headers="productA durability">10/10</td>
+                    <td headers="productB durability">5/10</td>
+                    <td headers="productC durability">7/10</td>
+                </tr>
+                <tr>
+                    <th id="design" scope="row">Design</th>
+                    <td headers="productA design">3/10</td>
+                    <td headers="productB design">8/10</td>
+                    <td headers="productC design">7/10</td>
+                </tr>
+                <tr>
+                    <th id="usability" scope="row">Usability</th>
+                    <td headers="productA usability">7/10</td>
+                    <td headers="productB usability">10/10</td>
+                    <td headers="productC usability">5/10</td>
+                </tr>
+                <tr>
+                    <th id="price" scope="row">Price</th>
+                    <td headers="productA price">9/10</td>
+                    <td headers="productB price">7/10</td>
+                    <td headers="productC price">3/10</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

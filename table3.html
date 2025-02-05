@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./table3.css" />
+    <title>HTML Table Example</title>
+</head>
+
+<body>
+    <h2 id="Countries">Countries</h2>
+    <div class="table-wrapper">
+        <table aria-labelledby="Countries">
+            <caption>Fig: Information about contries and populations</caption>
+            <thead>
+                <tr>
+                    <th id="country" scope="colgroup">Country</th>
+                    <th id="population" scope="colgroup">Population (approximate)</th>
+                    <th id="flag" scope="colgroup">Flag</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td headers="country">Brazil</td>
+                    <td headers="population">216.400.000</td>
+                    <td headers="flag"><img src="./assets/flag/brazil.svg" class="flag" alt="flag of Brazil"></td>
+                </tr>
+                <tr>
+                    <td headers="country">Canada</td>
+                    <td headers="population">40.000.000</td>
+                    <td headers="flag"><img src="./assets/flag/canada.svg" class="flag" alt="flag of Canada"></td>
+                </tr>
+                <tr>
+                    <td headers="country">Belgium</td>
+                    <td headers="population">11.820.000</td>
+                    <td headers="flag"><img src="./assets/flag/belgium.svg" class="flag" alt="flag of Belgium"></td>
+                </tr>
+                <tr>
+                    <td headers="country">Bulgaria</td>
+                    <td headers="population">6,795,803</td>
+                    <td headers="flag"><img src="./assets/flag/bulgaria.svg" class="flag" alt="flag of Bulgaria"></td>
+                </tr>
+                <tr>
+                    <td headers="country">Armenia</td>
+                    <td headers="population">2.778.000</td>
+                    <td headers="flag"><img src="./assets/flag/armenia.svg" class="flag" alt="flag of Armenia"></td>
+                </tr>
+                <tr>
+                    <td headers="country">Bahamas</td>
+                    <td headers="population">412.623</td>
+                    <td headers="flag"><img src="./assets/flag/bahamas.svg" class="flag" alt="flag of Bahamas"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
